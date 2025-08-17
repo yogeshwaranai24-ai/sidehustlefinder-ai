@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Upwork",
+    "categories": ["writing", "design", "programming", "marketing"],
+    "commission": 20,
+    "avgRate": 25,
+    "rating": 4.5,
+    "competition": 3,
+    "bestFor": "Established freelancers",
+    "growthRate": 15,
+    "avgEarnings": 3500
+  },
+  {
+    "name": "Fiverr",
+    "categories": ["writing", "design", "video", "marketing"],
+    "commission": 20,
+    "avgRate": 15,
+    "rating": 4.0,
+    "competition": 4,
+    "bestFor": "Beginner freelancers",
+    "growthRate": 25,
+    "avgEarnings": 2000
+  }
+]

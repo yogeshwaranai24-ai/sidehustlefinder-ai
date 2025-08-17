@@ -1,0 +1,108 @@
+[
+  {
+    "id": "freelance-writing",
+    "title": "Freelance Writing",
+    "description": "Create content for blogs, websites, and businesses. Specialize in niches like tech, health, or finance for higher rates.",
+    "category": "writing",
+    "requiredSkills": ["Writing"],
+    "timeCommitment": {
+      "min": 5,
+      "max": 30
+    },
+    "budget": {
+      "min": 0,
+      "max": 100
+    },
+    "earnings": {
+      "min": 500,
+      "max": 5000
+    },
+    "resources": {
+      "learning": [
+        {
+          "name": "Grammarly",
+          "url": "https://www.grammarly.com/"
+        },
+        {
+          "name": "Hemingway Editor",
+          "url": "https://hemingwayapp.com/"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Google Docs",
+          "url": "https://docs.google.com/"
+        }
+      ],
+      "portfolioExamples": [
+        {
+          "name": "Contently Portfolio Examples",
+          "url": "https://contently.com/"
+        }
+      ],
+      "jobPlatforms": [
+        {
+          "name": "Upwork Writing Jobs",
+          "url": "https://www.upwork.com/"
+        }
+      ],
+      "scaling": [
+        {
+          "name": "How to Scale Writing Business",
+          "url": "https://www.makealivingwriting.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "web-design",
+    "title": "Web Design",
+    "description": "Design websites for small businesses using tools like WordPress, Webflow, or custom designs.",
+    "category": "design",
+    "requiredSkills": ["Design"],
+    "timeCommitment": {
+      "min": 10,
+      "max": 40
+    },
+    "budget": {
+      "min": 100,
+      "max": 1000
+    },
+    "earnings": {
+      "min": 1000,
+      "max": 10000
+    },
+    "resources": {
+      "learning": [
+        {
+          "name": "Webflow University",
+          "url": "https://university.webflow.com/"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Figma",
+          "url": "https://www.figma.com/"
+        }
+      ],
+      "portfolioExamples": [
+        {
+          "name": "Awwwards",
+          "url": "https://www.awwwards.com/"
+        }
+      ],
+      "jobPlatforms": [
+        {
+          "name": "Dribbble Jobs",
+          "url": "https://dribbble.com/jobs"
+        }
+      ],
+      "scaling": [
+        {
+          "name": "Web Design Business Guide",
+          "url": "https://www.smashingmagazine.com/"
+        }
+      ]
+    }
+  }
+]

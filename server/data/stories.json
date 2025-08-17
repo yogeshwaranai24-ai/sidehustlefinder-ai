@@ -1,0 +1,14 @@
+[
+  {
+    "id": "story1",
+    "name": "Sarah Johnson",
+    "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+    "hustle": "Freelance Writing",
+    "earnings": 7500,
+    "testimonial": "I went from making $200/month to over $7k/month in just 8 months by niching down and building a strong portfolio.",
+    "startingPoint": "No experience, just a passion for writing",
+    "timeToFirstK": "3 months",
+    "keyStrategy": "Specialized in technical writing for SaaS companies",
+    "tags": ["writing", "SaaS", "niche"]
+  }
+]
