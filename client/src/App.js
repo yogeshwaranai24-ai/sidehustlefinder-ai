@@ -5,7 +5,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import HomePage from './pages/HomePage';
 import ResultsPage from './pages/ResultsPage';
 import StoryPage from './pages/StoryPage';
-import Navbar from './components/NavBar';
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 const theme = createTheme({
