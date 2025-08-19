@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Grid, Card, CardContent, Typography, Avatar, Box } from '@mui/material';
 import api from '../utils/api';
-
+import { CircularProgress } from '@mui/material';
 const StoryPage = () => {
   const [stories, setStories] = useState([]);
   const [loading, setLoading] = useState(true);
