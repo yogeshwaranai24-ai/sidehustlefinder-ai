@@ -42,7 +42,7 @@ function generateEarningsProjection(hustle, hoursPerWeek) {
   
   return months.map((month, index) => ({
     month,
-    earnings: Math.round(baseEarnings * (1 + index * 0.3) * (hoursPerWeek / 10)
+    earnings: Math.round(baseEarnings * (1 + index * 0.3) * (hoursPerWeek / 10))
   }));
 }
 
