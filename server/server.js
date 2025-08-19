@@ -39,3 +39,13 @@ app.use((err, req, res, next) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+// Add this route for testing
+app.get('/api/hustles', (req, res) => {
+  try {
+    const hustles = require('./data/hustles');
+    res.json(hustles);
+  } catch (error) {
+    console.error('Error fetching hustles:', error);
+    res.status(500).json({ error: 'Failed to fetch hustles' });
+  }
+});
