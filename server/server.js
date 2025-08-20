@@ -49,3 +49,28 @@ app.get('/api/hustles', (req, res) => {
     res.status(500).json({ error: 'Failed to fetch hustles' });
   }
 });
+app.post('/api/hustles', (req, res) => {
+  try {
+    console.log('Received hustle request:', {
+      skills: req.body.skills,
+      interests: req.body.interests,
+      time: req.body.timeCommitment,
+      budget: req.body.budget
+    });
+
+    const recommended = recommendHustles(req.body);
+    
+    // Always return success, even if we use fallback data
+    res.json(recommended);
+    
+  } catch (error) {
+    console.error('Server error in /api/hustles:', error);
+    // Return hustles anyway with error info
+    const hustles = require('./data/hustles');
+    res.json(hustles.map(hustle => ({
+      ...hustle,
+      error: 'System issue - showing all options',
+      originalError: error.message
+    })));
+  }
+});
