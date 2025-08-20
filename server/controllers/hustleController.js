@@ -1,4 +1,4 @@
-const hustles = require('../data/hustles.json');
+const hustles = require('../data/hustles');
 const { generateAIRecommendation } = require('../services/openai');
 
 const getRecommendations = async (req, res) => {

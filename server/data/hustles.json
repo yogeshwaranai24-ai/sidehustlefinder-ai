@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "title": "AI Content Creation Service",
+    "description": "Create blog posts, social media content, and marketing copy using AI tools",
+    "detailedDescription": "Offer content creation services to businesses using AI tools like Jasper, Copy.ai, or ChatGPT. Many small businesses need consistent content but lack the time or writing skills.",
+    "earningsPotential": "$500-$5,000/month",
+    "timeRequired": "5-10 hours/week",
+    "skillLevel": "Beginner",
+    "startupCost": "$100-$300",
+    "skills": ["writing", "content", "creativity", "communication"],
+    "whyThisWorks": [
+      "Content marketing is essential for all businesses",
+      "AI tools dramatically reduce writing time",
+      "You can scale by hiring virtual assistants",
+      "Recurring revenue from content subscriptions"
+    ],
+    "gettingStarted": [
+      "Choose a niche (e.g., real estate, e-commerce)",
+      "Set up basic website and samples",
+      "Create packages (e.g., 4 blog posts/month)",
+      "Market on LinkedIn, Upwork, and Facebook groups",
+      "Use AI tools to speed up content creation"
+    ],
+    "tools": [
+      { "name": "Jasper", "link": "https://www.jasper.ai" },
+      { "name": "Copy.ai", "link": "https://www.copy.ai" },
+      { "name": "ChatGPT", "link": "https://chat.openai.com" },
+      { "name": "Grammarly", "link": "https://www.grammarly.com" }
+    ],
+    "successStory": {
+      "quote": "I started offering AI content to small businesses and now have 12 recurring clients making me $3,800/month",
+      "person": "Sarah K.",
+      "earnings": "3800"
+    }
+  },
+  {
+    "id": "2",
+    "title": "Custom AI Chatbot Development",
+    "description": "Build and deploy custom chatbots for businesses using no-code platforms",
+    "detailedDescription": "Many businesses want to implement chatbots for customer service but don't know how. With no-code platforms like ManyChat, Chatfuel, or Landbot, you can create sophisticated chatbots without programming. Offer setup and monthly maintenance services.",
+    "earningsPotential": "$1,000-$10,000/month",
+    "timeRequired": "10-20 hours/week",
+    "skillLevel": "Intermediate",
+    "startupCost": "$200-$500",
+    "skills": ["programming", "development", "problem solving", "logic"],
+    "whyThisWorks": [
+      "Chatbots reduce customer service costs by 30%",
+      "Most businesses don't have in-house expertise",
+      "Recurring revenue from maintenance contracts",
+      "Can specialize by industry (e.g., e-commerce, real estate)"
+    ],
+    "gettingStarted": [
+      "Learn a no-code chatbot platform",
+      "Create sample bots for different use cases",
+      "Offer free audit of existing customer service",
+      "Package your services (setup + monthly maintenance)",
+      "Market to local businesses and online"
+    ],
+    "tools": [
+      { "name": "ManyChat", "link": "https://manychat.com" },
+      { "name": "Chatfuel", "link": "https://chatfuel.com" },
+      { "name": "Landbot", "link": "https://landbot.io" },
+      { "name": "Dialogflow", "link": "https://dialogflow.cloud.google.com" }
+    ],
+    "successStory": {
+      "quote": "After learning ManyChat, I landed 3 clients in my first month. Now I make $7,500/month maintaining chatbots.",
+      "person": "David T.",
+      "earnings": "7500"
+    }
+  }
+]
